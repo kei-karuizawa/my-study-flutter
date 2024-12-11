@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:my_study_flutter/dao/login_dao.dart';
-import 'package:my_study_flutter/util/navigator_util.dart';
-import 'package:my_study_flutter/util/string_util.dart';
-import 'package:my_study_flutter/util/view_util.dart';
-import 'package:my_study_flutter/widgets/input_widget.dart';
-import 'package:my_study_flutter/widgets/login_widget.dart';
+import 'package:my_study_flutter/mksz741/dao/login_dao.dart';
+import 'package:my_study_flutter/mksz741/util/navigator_util.dart';
+import 'package:my_study_flutter/mksz741/util/string_util.dart';
+import 'package:my_study_flutter/mksz741/util/view_util.dart';
+import 'package:my_study_flutter/mksz741/widgets/input_widget.dart';
+import 'package:my_study_flutter/mksz741/widgets/login_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class LoginPage extends StatefulWidget {

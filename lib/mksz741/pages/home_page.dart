@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:my_study_flutter/dao/login_dao.dart';
-import 'package:my_study_flutter/util/navigator_util.dart';
-import 'package:my_study_flutter/widgets/banner_widget.dart';
+import 'package:my_study_flutter/mksz741/dao/login_dao.dart';
+import 'package:my_study_flutter/mksz741/util/navigator_util.dart';
+import 'package:my_study_flutter/mksz741/widgets/banner_widget.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

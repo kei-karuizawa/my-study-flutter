@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:my_study_flutter/pages/home_page.dart';
-import 'package:my_study_flutter/pages/my_page.dart';
-import 'package:my_study_flutter/pages/search_page.dart';
-import 'package:my_study_flutter/pages/travel_page.dart';
+import 'package:my_study_flutter/mksz741/pages/home_page.dart';
+import 'package:my_study_flutter/mksz741/pages/my_page.dart';
+import 'package:my_study_flutter/mksz741/pages/search_page.dart';
+import 'package:my_study_flutter/mksz741/pages/travel_page.dart';
 
 import '../util/navigator_util.dart';
 

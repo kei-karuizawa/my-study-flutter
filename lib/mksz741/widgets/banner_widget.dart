@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart' hide CarouselController;
 import 'package:flutter_carousel_widget/flutter_carousel_widget.dart';
-import 'package:my_study_flutter/util/screen_adapter_helper.dart';
+import 'package:my_study_flutter/mksz741/util/screen_adapter_helper.dart';
 
 class BannerWidget extends StatefulWidget {
   final List<String> bannerList;

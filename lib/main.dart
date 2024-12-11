@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:my_study_flutter/navigator/tab_navigator.dart';
-import 'package:my_study_flutter/pages/home_page.dart';
-import 'package:my_study_flutter/pages/login_page.dart';
-import 'package:my_study_flutter/util/screen_adapter_helper.dart';
+import 'package:my_study_flutter/mksz741/navigator/tab_navigator.dart';
+import 'package:my_study_flutter/mksz741/pages/home_page.dart';
+import 'package:my_study_flutter/mksz741/pages/login_page.dart';
+import 'package:my_study_flutter/mksz741/util/screen_adapter_helper.dart';
 
 void main() {
   runApp(const MyApp());

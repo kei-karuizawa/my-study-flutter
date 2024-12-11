@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:my_study_flutter/util/navigator_util.dart';
+import 'package:my_study_flutter/mksz741/util/navigator_util.dart';
 import 'header_util.dart';
 
 class LoginDao {

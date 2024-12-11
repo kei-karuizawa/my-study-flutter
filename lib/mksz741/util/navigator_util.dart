@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_study_flutter/pages/home_page.dart';
-import 'package:my_study_flutter/pages/login_page.dart';
+import 'package:my_study_flutter/mksz741/pages/home_page.dart';
+import 'package:my_study_flutter/mksz741/pages/login_page.dart';
 
 class NavigatorUtil {
   /// 用于在获取不到 context 的地方，如 dao 中跳转页面使用，需要在 HomePage 赋值
