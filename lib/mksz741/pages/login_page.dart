@@ -5,7 +5,7 @@ import 'package:my_study_flutter/mksz741/util/string_util.dart';
 import 'package:my_study_flutter/mksz741/util/view_util.dart';
 import 'package:my_study_flutter/mksz741/widgets/input_widget.dart';
 import 'package:my_study_flutter/mksz741/widgets/login_widget.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -119,14 +119,14 @@ class _LoginPageState extends State<LoginPage> {
       // print('登录成功');
       NavigatorUtil.goToHome(context);
     } catch (e) {
-      print(e);
+      debugPrint(e.toString());
     }
   }
 
   _jumpToRegistration() async {
-    Uri uri = Uri.parse('https://api.devio.org/uapi/swagger-ui.html#/Account/registrationUsingPOST');
-    if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
-      throw 'Could not open URL';
-    }
+    // Uri uri = Uri.parse('https://api.devio.org/uapi/swagger-ui.html#/Account/registrationUsingPOST');
+    // if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
+    //   throw 'Could not open URL';
+    // }
   }
 }

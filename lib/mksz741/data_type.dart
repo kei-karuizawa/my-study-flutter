@@ -1,7 +1,10 @@
 // 入口函数，使得 Dart 可以独立运行
+
+import 'package:flutter/material.dart';
+
 void main() {
   String? a = null;
-  print('The type of a is ${a.runtimeType}');
+  debugPrint('The type of a is ${a.runtimeType}');
 }
 
 

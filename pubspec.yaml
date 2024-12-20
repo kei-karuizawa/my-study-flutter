@@ -35,7 +35,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  url_launcher: ^6.1.9
+#  url_launcher: ^6.3.1
   http: ^0.13.5
   flutter_carousel_widget: ^3.1.0
 
@@ -66,6 +66,9 @@ flutter:
     # 这个只会添加这个文件夹下的资源，而不会添加它的子文件夹
     - images/
     - images/trip_flutter/
+    - lib/fluttercn/interface/layout/layout_guide/
+  #  - lib/fluttercn/interface/layout/layout_guide/lake.jpg
+
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

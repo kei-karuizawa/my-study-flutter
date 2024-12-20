@@ -8,7 +8,7 @@ class NavigatorUtil {
   
   static updateContext(BuildContext context) {
     NavigatorUtil._context = context;
-    print('init: $context');
+    debugPrint('init: $context');
   }
 
   /// 跳转到指定页面
