@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:my_study_flutter/fluttercn/interface/layout/list_grid/fluttercn_build_and_use_list.dart';
+import 'package:my_study_flutter/fluttercn/interface/layout/list_grid/fluttercn_create_grid.dart';
+import 'package:my_study_flutter/fluttercn/interface/layout/list_grid/fluttercn_create_group_list.dart';
+import 'package:my_study_flutter/fluttercn/interface/layout/list_grid/fluttercn_create_horizontal_list.dart';
 import 'package:my_study_flutter/mksz741/navigator/tab_navigator.dart';
 import 'package:my_study_flutter/mksz741/pages/home_page.dart';
 import 'package:my_study_flutter/mksz741/pages/login_page.dart';
@@ -15,7 +19,14 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const FlutterCNLayoutGuideDemo();
+    return FlutterCNCreateGroupList(
+      items: List<FlutterCNCreateGroupListItem>.generate(
+        1000,
+        (i) => i % 6 == 0
+            ? FlutterCNCreateGroupHeadingItem('Heading $i')
+            : FlutterCNCreateGroupMessageItem('Sender $i', 'Message body $i'),
+      ),
+    );
     // return MaterialApp(
     //   title: '快速上手 Flutter',
     //   theme: ThemeData(
