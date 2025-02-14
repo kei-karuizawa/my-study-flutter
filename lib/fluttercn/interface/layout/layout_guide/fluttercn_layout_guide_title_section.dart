@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_study_flutter/fluttercn/interface/user_interaction/fluttercn_demo_add_interaction.dart';
 
 class FlutterCNTitleSection extends StatelessWidget {
   const FlutterCNTitleSection({
@@ -47,11 +48,16 @@ class FlutterCNTitleSection extends StatelessWidget {
               ],
             ),
           ),
-          Icon(
-            Icons.star,
-            color: Colors.red[500],
-          ),
-          const Text('41'),
+
+          // 去掉原来的图标和文字，我们要换成自己后面封装的
+          // Icon(
+          //   Icons.star,
+          //   color: Colors.red[500],
+          // ),
+          // const Text('41'),
+
+          // 替换自己封装的组件
+          const FluttercnInterActionFavoriteWidget(),
         ],
       ),
     );

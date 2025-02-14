@@ -4,6 +4,10 @@ import 'package:my_study_flutter/fluttercn/interface/layout/list_grid/fluttercn_
 import 'package:my_study_flutter/fluttercn/interface/layout/list_grid/fluttercn_create_group_list.dart';
 import 'package:my_study_flutter/fluttercn/interface/layout/list_grid/fluttercn_create_horizontal_list.dart';
 import 'package:my_study_flutter/fluttercn/interface/layout/list_grid/fluttercn_create_space_list.dart';
+import 'package:my_study_flutter/fluttercn/interface/layout/list_grid/fluttercn_handle_long_list.dart';
+import 'package:my_study_flutter/fluttercn/interface/layout/scroll/fluttercn_float_app_bar_in_list_top.dart';
+import 'package:my_study_flutter/fluttercn/interface/user_interaction/gesture/fluttercn_gesture_draggable.dart';
+import 'package:my_study_flutter/fluttercn/interface/user_interaction/gesture/fluttercn_gesture_handle_tap.dart';
 import 'package:my_study_flutter/mksz741/navigator/tab_navigator.dart';
 import 'package:my_study_flutter/mksz741/pages/home_page.dart';
 import 'package:my_study_flutter/mksz741/pages/login_page.dart';
@@ -20,7 +24,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const FlutterCNCreateSpaceList();
+    return const FluttercnGestureDraggable();
     // return MaterialApp(
     //   title: '快速上手 Flutter',
     //   theme: ThemeData(
